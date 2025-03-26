@@ -12,6 +12,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+ul{
+    list-style: none;
+}
 
 
 /* Utils */
@@ -22,7 +25,7 @@ a{
 }
 .container-small{
     max-width: 1000px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 .flex{
@@ -51,6 +54,13 @@ section{
     background-color: blue;
     padding: 5px 10px;
     color: white;
+}
+.btn-card{
+    background-color: blue;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin: 30px 0;
 }
 
 /* Layout */
@@ -106,24 +116,67 @@ font-weight: 800;
 }
 .col-40{
     width: 40%;
-    /* debug */
-    /* height: 200px; */
 }
 .col-60{
     width: 60%;
-    /* debug */
-    /* height: 200px; */
+}
+.col-hero{
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Bussiness Plan  */
+.radio{
+    margin-right: 50px;
+}
+.card-head{
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    p{
+        display: inline-block;
+        margin-left: 10px;
+    }
+}
 .card-bussiness-flex{
     gap: 20px;
 }
 .card-bussiness{
     /* debug */
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* height: 400px; */
     width: calc((100% - 40px) / 3);
     flex-shrink: 0;
+    border: 1px solid grey;
+    padding: 0 20px;
+    h3, h4{
+        margin: 5px 0;
+    }
+    h4{
+        color: grey;
+    }
+    h2{
+        margin-top: 30px;
+    }
+    
+}
+.card-bussiness ul li{
+    margin: 10px;
+}
+.card-list{
+    margin-top: 30px;
+}
+.card-list p{
+    margin-bottom: 50px;
+    a{
+        text-decoration: underline;
+        color: blue;
+    }
+}
+.check{
+    color: aqua;
+    font-weight: bold;
 }
 .team{
     width: 100%;
