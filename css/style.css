@@ -44,6 +44,9 @@ section{
 .bg-lightblue{
     background-color: lightblue;
 }
+.bg-black{
+    background-color: black;
+}
 
 /* Layout */
 /* Header */
@@ -67,4 +70,69 @@ section{
 /* Banner */
 .banner{
     justify-content: center;
+}
+.col-40{
+    width: 40%;
+    /* debug */
+    height: 200px;
+}
+.col-60{
+    width: 60%;
+    /* debug */
+    height: 200px;
+}
+
+/* Bussiness Plan  */
+.card-bussiness-flex{
+    gap: 20px;
+}
+.card-bussiness{
+    /* debug */
+    height: 400px;
+    width: calc((100% - 40px) / 3);
+    flex-shrink: 0;
+}
+.team{
+    width: 100%;
+}
+.enterprize-flex{
+    gap: 20px;
+}
+.enterprize{
+    width:100%;
+
+}
+
+/* Small cards */
+.card-small-flex{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-small{
+    /* debug */
+    height: 300px;
+    width: calc((100% - 40px) / 3);
+    flex-shrink: 0;
+}
+
+/* Footer */
+.footer{
+    /* debug */
+    height: 400px;
+}
+.footer-flex{
+    gap: 20px;
+}
+.footer-list{
+    width: calc((100% - 80px) / 5);
+    /* debug */
+    height: 300px;
+    border: 1px dotted white;
+}
+.lingua{
+    width: 100%;
+    /* debug */
+    height: 100px;
+    border: 1px dotted white;
+
 }
