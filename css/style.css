@@ -1,0 +1,57 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* Utils */
+.container-large{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* debug */
+div{
+    border: 1px solid black;
+}
+section{
+    border: 1px solid black;
+}
+.height{
+    height: 50px;
+}
+.width{
+    min-width: 150px;
+}
+/* Fine debug */
+
+.bg-grey{
+    background-color: grey;
+}
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+/* Layout */
+/* Header */
+.header{
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    justify-content: space-between;
+}
