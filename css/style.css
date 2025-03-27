@@ -36,13 +36,13 @@ ul{
 .flex{
     display: flex;
 }
-/* debug */
+/* debug
 div{
     border: 1px solid black;
 }
 section{
     border: 1px solid black;
-}
+} */
 
 /* Fine debug */
 
@@ -57,7 +57,7 @@ section{
 }
 .btn{
     background-color: blue;
-    padding: 5px 10px;
+    padding: 10px 20px;
     color: white;
 }
 .btn-card{
@@ -125,7 +125,7 @@ h1{
     font-size: 4rem;
     text-align: justify;
     padding-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 a.btn{
     display: inline-block;
@@ -133,7 +133,7 @@ a.btn{
 
 }
 .arrow{
-margin-top: 30px;
+margin-top: 50px;
 margin-bottom: 0px;
 font-size: 3rem;
 font-weight: 800;
@@ -148,9 +148,15 @@ font-weight: 800;
     width: 60%;
 }
 .col-hero{
+    
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+    top: 60px;
 }
+.hero-image{
+    position: relative;
+    top: 60px;
+} 
 
 /* Bussiness Plan  */
 .section-title{
@@ -291,20 +297,28 @@ font-weight: 800;
 
 }
 .footer-flex{
+    padding: 100px 0px;
     gap: 20px;
 }
 .footer-list{
     width: calc((100% - 80px) / 5);
-    border: 1px dotted white;
     color: white;
     li{
-        margin: 10px
+        margin: 10px 0px
     }
 }
 .lingua{
-    width: 100%;
-    /* debug */
-    height: 100px;
-    border: 1px dotted white;
-
+    /* border: 1px dotted white; */
+    color: white;
+    padding: 20px 0;
+    justify-content: flex-start;
+    span{
+        margin-right: 10px;
+    }
+    h4{
+        margin-right: 10px;
+    }
+}
+.divider{
+    width: 110px;
 }
