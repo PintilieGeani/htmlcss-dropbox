@@ -68,6 +68,27 @@ section{
     text-align: center;
     margin: 30px 0;
 }
+.mt-200{
+    margin-top: 200px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-200{
+    margin-bottom: 200px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /* Layout */
 /* Header */
@@ -220,6 +241,22 @@ font-weight: 800;
         padding-bottom: 30px;
     }
 }
+.col-40-partner{
+    width: 40%;
+    padding: 0 20px;
+    h2{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    button{
+        padding: 5px 10px;
+    }
+
+
+}
 .card-bussiness-small{
         display: flex;
         flex-direction: column;
@@ -234,25 +271,35 @@ font-weight: 800;
     gap: 20px;
 }
 .card-small{
-    /* debug */
-    height: 300px;
     width: calc((100% - 40px) / 3);
     flex-shrink: 0;
 }
 
+/* Scopri di più */
+.scopri{
+    a{
+        text-decoration: underline;
+        color: blue;
+    }
+    h2{
+        margin-bottom: 50px;
+    }
+}
+
 /* Footer */
 .footer{
-    /* debug */
-    height: 400px;
+
 }
 .footer-flex{
     gap: 20px;
 }
 .footer-list{
     width: calc((100% - 80px) / 5);
-    /* debug */
-    height: 300px;
     border: 1px dotted white;
+    color: white;
+    li{
+        margin: 10px
+    }
 }
 .lingua{
     width: 100%;
