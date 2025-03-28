@@ -59,6 +59,14 @@ section{
     background-color: blue;
     padding: 10px 20px;
     color: white;
+    display: inline-block;
+}
+.btn-nav{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    line-height: normal;
 }
 .btn-card{
     display: block;
@@ -95,7 +103,12 @@ section{
 .header{
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background-color: white;
+
 }
 .logo{
     width: 150px;
@@ -106,10 +119,23 @@ nav ul{
     list-style: none;
     display: flex;
     align-items: center;
-
+}
+.border{
+    border-bottom: 1px solid black;
+    display: none;
 }
 nav ul li{
-    margin: 5px 10px;
+    margin: 0px 10px;
+}
+
+nav li:hover{
+  border-bottom: 1px solid black;
+  line-height: 100px;
+  /* .btn{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+  } */
 }
 .topbar-left{
     align-items: center;
